@@ -1,4 +1,4 @@
-# Last update: 2010/04/09
+# Last update: 2010/08/21
 
 use strict;
 use POSIX;
@@ -16,7 +16,7 @@ use lib "/home/thetitans/.irssi/scripts/";
 #                                                                              #
 # (what are all the kinds of info you can add - KEYS?)                         #
 ################################################################################
-$VERSION = '0.3.20100409';
+$VERSION = '0.4.20100821';
 %IRSSI = (
     authors     => 'Ward Muylaert',
     contact     => 'ward.muylaert@gmail.com',

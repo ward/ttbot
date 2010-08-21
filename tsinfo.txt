@@ -1,11 +1,8 @@
-^E(?:ternal)? ?H(?:onou?r)?$@@@Eternal Honour@@@nanospy@@@http://nanospy.de/ventrilo/voice.gameservers.com:0:4368/server_status.html
 ^Corr?(?:uption)?$@@@Corruption@@@gametracker@@@http://www.gametracker.com/server_info/68.232.167.116:4727/
-^R(?:eign)? ?Of? ?T(?:err?or)?$@@@Reign of Terror@@@nanospy@@@http://nanospy.de/ts2/74.63.228.143:41234:8767/ts2_status.html
-^D(?:ivine)? ?K(?:ings?)?$@@@Divine Kings@@@nanospy@@@http://nanospy.de/ts2/69.143.109.132:51234:8767/teamspeak_status.html
-^W(?:ild(?:ern[ie]s?)?)? ?G(?:uard(?:ian)?s?)?$@@@Wilderness Guardians@@@nanospy@@@http://nanospy.de/ts2/wildernessguardians.com:51234:8767/ts2_status.html
-^T(?:he)? ?R(?:ising)?$@@@The Rising@@@nanospy@@@http://nanospy.de/ventrilo/vent16.gameservers.com:4939:4939/ventrilo_status.html
-^Team ?Kenya$@@@Team Kenya@@@nanospy@@@http://nanospy.de/ts2/8.9.15.232:51234:8835/ts2_status.html
-^C(?:rimson)? ?R(?:aiders?)?$@@@Crimson Raiders@@@nanospy@@@http://nanospy.de/ventrilo/cr.clanvent.com:5469:5469/ventrilo_status.html
-^Glad(?:s|z|iator[zs]?)$@@@The Gladiatorz@@@nanospy@@@http://nanospy.de/ts2/64.22.124.195:51234:8767/ts2_status.html
-^Higher Force$@@@Higher Force (is it up to date?)@@@nanospy@@@http://nanospy.de/ts2/dallas01.voipservers.net:51234:8831/ts2_status.html
-^T(?:he)? ?N(?:eggas?)? ?C(?:lan)?$@@@The Neggas Clan@@@nanospy@@@http://nanospy.de/ts2/193.93.44.93:51234:9022/ts2_status.html
+^T(?:he)? ?R(?:ising)?$@@@The Rising@@@gametracker@@@http://www.gametracker.com/server_info/212.187.246.100:4939/
+^C(?:rimson)? ?R(?:aiders?)?$@@@Crimson Raiders@@@gametracker@@@http://www.gametracker.com/server_info/64.34.170.26:5469/
+^Poison$@@@Poison@@@gametracker@@@http://www.gametracker.com/server_info/63.209.37.218:4820/
+^V(?:iolent)? ?R(?:esolution)?$@@@Violent Resolution@@@gametracker@@@http://www.gametracker.com/server_info/208.101.56.250:4145/
+^[SL]olace$@@@Solace@@@gametracker@@@http://www.gametracker.com/server_info/87.117.208.29:4169/
+^Re?j(?:uvenation)?@@@Rejuvenation@@@gametracker@@@http://www.gametracker.com/server_info/74.63.40.185:4136/
+^Brut(?:ality)?@@@Brutality@@@gametracker@@@http://www.gametracker.com/server_info/8.6.2.2:9159/
