@@ -481,7 +481,7 @@ sub GetTsInfo {
       "online" => $1,
       "max" => $2
     );
-  }
+	}
 	elsif ($site eq "gametracker") {
 		$content =~ /<span id="HTML_num_players">(\d+)<\/span> \/ <span id="HTML_max_players">(\d+)<\/span>/;
 		%info = (
