@@ -7,8 +7,8 @@ use vars qw($VERSION %IRSSI);
 
 # Add cwd to @INC
 use vars qw($maindir);
-$maindir = "/home/thetitans/.irssi/scripts/";
-use lib "/home/thetitans/.irssi/scripts/";
+$maindir = "/home/ward/.irssi/scripts/";
+use lib "/home/ward/.irssi/scripts/";
 
 
 ################################################################################
@@ -482,6 +482,13 @@ sub GetTsInfo {
       "max" => $2
     );
   }
+	elsif ($site eq "gametracker") {
+		$content =~ /<span id="HTML_num_players">(\d+)<\/span> \/ <span id="HTML_max_players">(\d+)<\/span>/;
+		%info = (
+			"online" => $1,
+			"max" => $2
+		);
+	}
   
   return %info;
 }

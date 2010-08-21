@@ -1,5 +1,5 @@
 ^E(?:ternal)? ?H(?:onou?r)?$@@@Eternal Honour@@@nanospy@@@http://nanospy.de/ventrilo/voice.gameservers.com:0:4368/server_status.html
-^Corr?(?:uption)?$@@@Corruption@@@nanospy@@@http://nanospy.de/ventrilo/vent29.gameservers.com:0:4727/server_status.html
+^Corr?(?:uption)?$@@@Corruption@@@gametracker@@@http://www.gametracker.com/server_info/68.232.167.116:4727/
 ^R(?:eign)? ?Of? ?T(?:err?or)?$@@@Reign of Terror@@@nanospy@@@http://nanospy.de/ts2/74.63.228.143:41234:8767/ts2_status.html
 ^D(?:ivine)? ?K(?:ings?)?$@@@Divine Kings@@@nanospy@@@http://nanospy.de/ts2/69.143.109.132:51234:8767/teamspeak_status.html
 ^W(?:ild(?:ern[ie]s?)?)? ?G(?:uard(?:ian)?s?)?$@@@Wilderness Guardians@@@nanospy@@@http://nanospy.de/ts2/wildernessguardians.com:51234:8767/ts2_status.html
