@@ -7,8 +7,8 @@ use vars qw($VERSION %IRSSI);
 
 # Add cwd to @INC
 use vars qw($maindir);
-$maindir = "/home/ward/.irssi/scripts/";
-use lib "/home/ward/.irssi/scripts/";
+$maindir = "/home/thetitans/.irssi/scripts/";
+use lib "/home/thetitans/.irssi/scripts/";
 
 
 ################################################################################
