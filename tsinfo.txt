@@ -10,3 +10,4 @@
 ^Higher Force$@@@Higher Force (is it up to date?)@@@nanospy@@@http://nanospy.de/ts2/dallas01.voipservers.net:51234:8831/ts2_status.html
 ^T(?:he)? ?N(?:eggas?)? ?C(?:lan)?$@@@The Neggas Clan@@@nanospy@@@http://nanospy.de/ts2/193.93.44.93:51234:9022/ts2_status.html
 ^S(?:hadow)? ?E(?:lves?)?$@@@Shadow Elves@@@nanospy@@@http://nanospy.de/ts2/87.117.208.81:51213:9199/teamspeak_status.html
+^test$@@@Test@@@nanospy@@@http://blabla
