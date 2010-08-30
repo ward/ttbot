@@ -8,7 +8,7 @@ $VERSION = '0.5.20100830';
 %IRSSI = (
 	authors     => 'Ward Muylaert',
 	contact     => 'ward.muylaert@gmail.com',
-	name        => 'The Titans Bot - Clanavg',
+	name        => 'The Titans Bot - Masshighlight Kicker',
 	description => 'IRC Bot made for The Titans (#thetitans @ irc.swiftirc.net).',
 	url         => 'http://s4.zetaboards.com/thetitans',
 );

@@ -60,12 +60,12 @@ sub _usercount_text {
 			}
 			my %info = usercount($server->channel_find($target));
 			my $out = sprintf("[%s] %d users: (@) %d (%) %d (+) %d (-) %d",
-			$target,
-			$info{all},
-			$info{op},
-			$info{halfop},
-			$info{voice},
-			$info{regular});
+				$target,
+				$info{all},
+				$info{op},
+				$info{halfop},
+				$info{voice},
+				$info{regular});
 			my $outputway = $cmddelim eq "@" ? "msg $target" : "notice $nick";
 			$server->command("$outputway $out");
 		}
