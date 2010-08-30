@@ -7,8 +7,9 @@ use vars qw($VERSION %IRSSI);
 
 # Add cwd to @INC
 use vars qw($maindir);
-$maindir = "/home/thetitans/.irssi/scripts/";
-use lib "/home/thetitans/.irssi/scripts/";
+$maindir = Irssi::get_irssi_dir() . "/scripts/";
+# useless?
+#use lib Irssi::get_irssi_dir() . "/scripts/";
 
 
 ################################################################################
@@ -393,7 +394,7 @@ sub _clanavg_text {
 ################################################################################
 
 use vars qw($sexcryfile);
-$sexcryfile = $maindir . "victoriansexcry.txt";
+$sexcryfile = Irssi::get_irssi_dir() . "/scripts/victoriansexcry.txt";
 
 sub victoriansexcry {
   open (my $file, "< $sexcryfile") or return;
@@ -568,6 +569,9 @@ sub basic_text_replies {
   elsif ($input eq "radio1") {
     return "http://www.bbc.co.uk/iplayer/console/radio1/"
   }
+	elsif ($input eq "irssidir") {
+		return Irssi::get_irssi_dir();
+	}
 }
 
 sub _basic_text_replies_text {
