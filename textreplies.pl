@@ -46,9 +46,6 @@ sub text_replies {
 	elsif ($input eq "radio1") {
 		return "http://www.bbc.co.uk/iplayer/console/radio1/"
 	}
-	elsif ($input eq "irssidir") {
-		return Irssi::get_irssi_dir();
-	}
 }
 
 sub _basic_text_replies_text {
