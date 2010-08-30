@@ -1,5 +1,4 @@
 use strict;
-use POSIX;
 use Irssi;
 use vars qw($VERSION %IRSSI);
 

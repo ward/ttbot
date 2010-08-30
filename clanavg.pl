@@ -1,4 +1,5 @@
 use strict;
+# Exiting children threads
 use POSIX;
 use Irssi;
 use vars qw($VERSION %IRSSI);
