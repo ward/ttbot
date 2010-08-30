@@ -15,7 +15,7 @@ $VERSION = '0.5.20100830';
 
 
 ################################################################################
-#                        Join a channel                                        #
+#                          Join a channel                                      #
 ################################################################################
 
 sub _join_text {
@@ -28,6 +28,21 @@ sub _join_text {
 }
 
 Irssi::signal_add("event privmsg", "_join_text");
+
+################################################################################
+#                           Change nick                                        #
+################################################################################
+
+sub _nickchange_text {
+	my ($server, $data, $nick, $host) = @_;
+	my ($target, $text) = split(/ :/, TT::trim($data), 2);
+
+	if ($text =~ /^[!@.]nick ([^ ]+)$/i && TT::isAdmin($nick, $host)) {
+		$server->command("NICK $1");
+	}
+}
+
+Irssi::signal_add("event privmsg", "_nickchange_text");
 
 ################################################################################
 #                         Custom CTCP VERSION reply                            #
