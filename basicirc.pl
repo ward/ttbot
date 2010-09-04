@@ -51,11 +51,11 @@ Irssi::signal_add("event privmsg", "_nickchange_text");
 ################################################################################
 
 sub customversion_reply {
-  return "$IRSSI{name} v$VERSION by $IRSSI{authors}. $IRSSI{description}";
+	return "$IRSSI{name} v$VERSION by $IRSSI{authors}. $IRSSI{description}";
 }
 sub _customversion_ctcp {
-  my ($server, $text, $nick, $host, $target) = @_;
-  $server->ctcp_send_reply("NOTICE $nick :\001VERSION " . customversion_reply() . "\001");
+	my ($server, $text, $nick, $host, $target) = @_;
+	$server->ctcp_send_reply("NOTICE $nick :\001VERSION " . customversion_reply() . "\001");
 }
 
 Irssi::signal_add_first("ctcp msg version", "_customversion_ctcp");
