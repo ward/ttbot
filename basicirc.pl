@@ -59,3 +59,18 @@ sub _customversion_ctcp {
 }
 
 Irssi::signal_add_first("ctcp msg version", "_customversion_ctcp");
+
+################################################################################
+#                               User mode                                      #
+################################################################################
+
+sub _umode_text {
+	my ($server, $data, $nick, $host) = @_;
+	my ($target, $text) = split(/ :/, TT::trim($data), 2);
+
+	if ($text =~ /^[@.!]umode (.+)$/i && TT::isAdmin($nick, $host)) {
+		$server->command("MODE " . $server->{nick} . " " . $1);
+	}
+}
+
+Irssi::signal_add("event privmsg", "_umode_text");
