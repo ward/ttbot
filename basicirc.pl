@@ -4,7 +4,7 @@ use vars qw($VERSION %IRSSI);
 
 use TT;
 
-$VERSION = '0.5.20100830';
+$VERSION = '0.5.20100904';
 %IRSSI = (
 	authors     => 'Ward Muylaert',
 	contact     => 'ward.muylaert@gmail.com',
