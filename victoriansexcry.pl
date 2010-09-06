@@ -48,7 +48,7 @@ sub _victoriansexcry_action {
   my ($server, $text, $nick, $host, $target) = @_;
 
   if ($target =~ /^#/
-      && $text =~ /^huggles (?:$server->{nick})[ .]*(?:<3+)*$/i) {
+      && $text =~ /^(?:hugg|snugg|cudd)les (?:$server->{nick})[ .]*(?:<3+)*$/i) {
     if (not TT::isIgnored($host)) {
       if (not TT::isAdmin($nick, $host)) {
         TT::setIgnore($host, 5);
