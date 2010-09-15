@@ -87,7 +87,6 @@ sub _cl_text {
 		&& $text =~ /^([!@.])c(?:hampions?)?l(?:eague)? (?:group)?([A-H])$/i) {
 		my ($cmddelim, $group) = ($1, $2);
 		my $outputway = $cmddelim eq "@" ? "msg $target" : "notice $nick";
-		$server->command("$outputway Hi");
 		if (not TT::isIgnored($host)) {
 			if (not TT::isAdmin($nick, $host)) {
 				TT::setIgnore($host, 5);
