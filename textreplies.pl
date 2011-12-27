@@ -24,10 +24,10 @@ sub text_replies {
 
 	if ($input eq "site") {
 		# Perhaps have a main hash with url info etc instead of hardcoding here?
-		return "The Titans Site: http://s4.zetaboards.com/thetitans";
+		return "The Titans Site: http://www.agamingthing.com/thetitans/";
 	}
 	elsif ($input eq "ml" or $input eq "memblist") {
-		return "The Titans Memberlist: http://runehead.com/clans/ml.php?clan=titans";
+		return "The Titans Memberlist: http://runehead.com/clans/ml.php?clan=thetitans";
 	}
 	elsif ($input eq "falist" or $input eq "fa") {
 		return "Future Titans Memberlist: http://www.runehead.com/clans/ml.php?clan=titansfa";
@@ -37,7 +37,7 @@ sub text_replies {
 	}
 	elsif ($input eq "totlist") {
 		return "The Titans Memberlist by total: "
-			. "http://runehead.com/clans/ml.php?clan=titans&skill=Memberlist&sort=overall&style=default&combatType=F2P";
+			. "http://runehead.com/clans/ml.php?clan=thetitans&skill=Memberlist&sort=overall&style=default&combatType=F2P";
 	}
 	elsif ($input =~ /^(?:tt)?req(?:uirement)?s?$/i) {
 		return "[TT reqs] Future Titan: 92 Att, Str, Def & HP + 75 Range & Magic + 78 Pray;"
