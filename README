@@ -1,7 +1,0 @@
-Variety of scripts written in perl for use with irssi.
-
-This is, in essence, the scripts directory, so when cloning it is
-advised to issue:
-git clone git://github.com/Wardje/ttbot.git ~/.irssi/scripts
-
-The features aren't widespread and are very specific.
