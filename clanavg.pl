@@ -12,7 +12,7 @@ $VERSION = '0.5.20100830';
 	contact     => 'ward.muylaert@gmail.com',
 	name        => 'The Titans Bot - Clanavg',
 	description => 'IRC Bot made for The Titans (#thetitans @ irc.swiftirc.net).',
-	url         => 'http://s4.zetaboards.com/thetitans',
+	url         => 'http://www.agamingthing.com/thetitans/'
 );
 
 ################################################################################
