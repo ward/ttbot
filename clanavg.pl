@@ -6,7 +6,7 @@ use vars qw($VERSION %IRSSI);
 
 use TT;
 
-$VERSION = '0.5.20100830';
+$VERSION = '0.6.20120227';
 %IRSSI = (
 	authors     => 'Ward Muylaert',
 	contact     => 'ward.muylaert@gmail.com',
@@ -27,7 +27,7 @@ sub clanavg {
   my ($clanid, $skill) = @_;
   (defined($clanid) && defined($skill)) or return;
   
-  # http://runehead.com/clans/ml.php?clan=titans&skill=Farming
+  # http://runehead.com/clans/ml.php?clan=thetitans&skill=Farming
   # Notice that if skill is combat, the default page gets loaded
   my $url = "http://runehead.com/clans/ml.php?clan=" . $clanid
     . "&skill=" . $skill;
@@ -256,7 +256,7 @@ sub _clanavg_text {
       else {
         if ($skill = &getskill($skill)) {
           # Remember, findclanid returns an array
-          my @clanid = ($clan ? findclanid($clan) : ("titans"));
+          my @clanid = ($clan ? findclanid($clan) : ("thetitans"));
           if ((defined $clanid[0])
               && (my %info = clanavg($clanid[0], $skill))) {
             my $out;
