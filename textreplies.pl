@@ -24,7 +24,7 @@ sub text_replies {
 
 	if ($input eq "site") {
 		# Perhaps have a main hash with url info etc instead of hardcoding here?
-		return "The Titans Site: http://www.agamingthing.com/thetitans/";
+		return "The Titans Site: http://www.thetitansclan.com/thetitans/";
 	}
 	elsif ($input eq "ml" or $input eq "memblist") {
 		return "The Titans Memberlist: http://runehead.com/clans/ml.php?clan=thetitans";
